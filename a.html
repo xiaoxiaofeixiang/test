@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>²ËÄñ½Ì³Ì(runoob.com)</title>
+</head>
+<body>
+
+<div id="div1">
+<input type="text" name="add1" id="add1"/>*<input type="text" name="add2" id="add2" />=<input type="text" name="result" id="result" onclick="add()"/>
+
+
+</div>
+<script>
+
+function add(){
+	var add1=document.getElementById("add1").value;
+    var add2=document.getElementById("add2").value;
+    var result=Number(add1)*Number(add2); 
+   
+  document.getElementById("result").value=result;
+}
+</script>
+
+</body>
+</html>
